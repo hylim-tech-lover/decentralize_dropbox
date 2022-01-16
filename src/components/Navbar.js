@@ -5,6 +5,8 @@ import box from '../box.png'
 class Navbar extends Component {
 
   render() {
+    // this.props get value from above implemenetation of Navbar in App.js
+    // use identicon icon from Etherscan API to beautify the identification
     return (
       <nav className="navbar navbar-dark bg-dark p-0 text-monospace">
         <a
